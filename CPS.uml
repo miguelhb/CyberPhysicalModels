@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_TOItcBw_EeqOwN6zq_czwQ" name="CPS">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TVc2YBw_EeqOwN6zq_czwQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TVy0oBw_EeqOwN6zq_czwQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QogY4BxIEeqTBf0r4a-qVg" name="SoS">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_kWEugB6fEeqdiJPI89HUiw">
+        <body>https://re-magazine.ireb.org/articles/modeling-requirements-with-sysml</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7sQFYB6MEeqdiJPI89HUiw" name="SystemOfSystems">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_bXG4IB6OEeqdiJPI89HUiw" name="Emergencias">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_hNHy0B6aEeqdiJPI89HUiw" name="Notificaciones"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_h5ZqAB6aEeqdiJPI89HUiw" name="InfoVivo"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_indp4B6aEeqdiJPI89HUiw" name="SolPersonalizado"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_YaR6oB6OEeqdiJPI89HUiw" name="Drones">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_M57b4B6ZEeqdiJPI89HUiw" name="Posicion"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_UZj2MB6ZEeqdiJPI89HUiw" name="DeteccionErrores"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VBfY4B6ZEeqdiJPI89HUiw" name="DroneCaracteristica"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VrD6UB6ZEeqdiJPI89HUiw" name="EnvioImag"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_XH2ocB6ZEeqdiJPI89HUiw" name="AreaDrone"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_YmABcB6ZEeqdiJPI89HUiw" name="LeyAerea"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ZxDfUB6ZEeqdiJPI89HUiw" name="TMax"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_mmSi0B6NEeqdiJPI89HUiw" name="E-Call">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_9HTikB6WEeqdiJPI89HUiw" name="Enviar localización"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_MQ8bMB6XEeqdiJPI89HUiw" name="ACK"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_R-1yIB6XEeqdiJPI89HUiw" name="SensorReliability"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_a9oSEB6XEeqdiJPI89HUiw" name="Datos de sensores"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_5LoGQB6NEeqdiJPI89HUiw" name="PSAP">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ng3wMB6XEeqdiJPI89HUiw" name="RecibirE-Call"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_tugXIB6XEeqdiJPI89HUiw" name="Meteo"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7HcHIB6XEeqdiJPI89HUiw" name="CamTráfico"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="__yIUoB6XEeqdiJPI89HUiw" name="EmergencyAlert"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_rIzDsB6YEeqdiJPI89HUiw" name="AnAccidente"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xxZvYB6YEeqdiJPI89HUiw" name="MejoraDecisiones"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_2YsqoB6YEeqdiJPI89HUiw" name="Interoperabilidad"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_-QZmsB6YEeqdiJPI89HUiw" name="AccesRemoto"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_EDVOoB6ZEeqdiJPI89HUiw" name="Base de datos"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_HAgLYB6OEeqdiJPI89HUiw" name="Meteo">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DG1UsB6aEeqdiJPI89HUiw" name="Previsión"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Dvvu0B6aEeqdiJPI89HUiw" name="EstActual"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_EcKI4B6aEeqdiJPI89HUiw" name="API-REST"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_H9MdIB6OEeqdiJPI89HUiw" name="Tráfico">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_mkn8oB6SEeqdiJPI89HUiw" name="CamaraVivo"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_BVGRUB6aEeqdiJPI89HUiw" name="HistFotografico"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_CU6vkB6aEeqdiJPI89HUiw" name="API-REST"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_epds0B6mEeqx3s9OfDXzcQ" name="GDPR"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fpPHwB6mEeqx3s9OfDXzcQ" name="Modular"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_gjXNsB6mEeqx3s9OfDXzcQ" name="Escalabilidad"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_jDavoB6mEeqx3s9OfDXzcQ" name="Adaptabilidad"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_kmN_IB6mEeqx3s9OfDXzcQ" name="Fiabilidad"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_mEJVsB6mEeqx3s9OfDXzcQ" name="NumDrones"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_oPE8MB6mEeqx3s9OfDXzcQ" name="AreaAbarcada"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_qIRScB6mEeqx3s9OfDXzcQ" name="TiempoMax"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DOgOgB6QEeqdiJPI89HUiw" name="E-Call">
+        <packagedElement xmi:type="uml:Class" xmi:id="_zMsDgCAKEeqJh7ajqD8Cxw" name="Sensor Cinematico"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FVteYCALEeqJh7ajqD8Cxw" name="Detección de pasajeros"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_I_204CALEeqJh7ajqD8Cxw" name="Acelerometro"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5-V0ICAjEeqJh7ajqD8Cxw" name="Almacenamiento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__GUakCAjEeqJh7ajqD8Cxw" name="Sistema de TX"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ig2R4B6QEeqdiJPI89HUiw" name="PSAP">
+        <packagedElement xmi:type="uml:Class" xmi:id="_A6EQICAkEeqJh7ajqD8Cxw" name="Sist. conexión E-Call"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_E5_pYCAkEeqJh7ajqD8Cxw" name="Sist. Conexión Drones"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FbiQMCAkEeqJh7ajqD8Cxw" name="Sist. Conexión ServEmergencias"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gl2HMCAkEeqJh7ajqD8Cxw" name="Almacenamiento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HT1OkCAkEeqJh7ajqD8Cxw" name="Sist. Conexión Meteo"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HzsaYCAkEeqJh7ajqD8Cxw" name="Sist. Conexión Tráfico"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cplEICAkEeqJh7ajqD8Cxw" name="Aplicación"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KzGoYB6QEeqdiJPI89HUiw" name="Meteo">
+        <packagedElement xmi:type="uml:Class" xmi:id="_kSU-MCAkEeqJh7ajqD8Cxw" name="API-REST"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_k7uggCAkEeqJh7ajqD8Cxw" name="Almacenamiento"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OvVNYB6QEeqdiJPI89HUiw" name="Trafico">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lj3ekCAkEeqJh7ajqD8Cxw" name="API-REST"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mQjlcCAkEeqJh7ajqD8Cxw" name="Almacenamiento"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Qyk3gB6QEeqdiJPI89HUiw" name="Drones"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_S8MPYB6QEeqdiJPI89HUiw" name="Emergencias">
+        <packagedElement xmi:type="uml:Class" xmi:id="_vk7T0CAkEeqJh7ajqD8Cxw" name="Dispositivo de consulta, notificaciones, etc"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TPyTQBw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TPzhYBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVU6kBw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVVhoBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVVhoRw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVWIsBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVWIsRw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVWvwBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVXW0Bw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVXW0Rw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVX94Bw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVX94Rw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVaaIBw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVaaIRw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVaaIhw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVbBMBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVbBMRw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVboQBw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TVboQRw_EeqOwN6zq_czwQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TVboQhw_EeqOwN6zq_czwQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_7ygeYB6MEeqdiJPI89HUiw" base_Class="_7sQFYB6MEeqdiJPI89HUiw" id="R.1" text="Reducir tiempo de respuesta.&#xD;&#xA;Proporcionar asistencia personalizada"/>
+  <Requirements:Requirement xmi:id="_mmcT0B6NEeqdiJPI89HUiw" base_Class="_mmSi0B6NEeqdiJPI89HUiw" id="R.2" text="Detectar accidente por parte del sistema E-Call"/>
+  <Requirements:Requirement xmi:id="_5Lx3QB6NEeqdiJPI89HUiw" base_Class="_5LoGQB6NEeqdiJPI89HUiw" id="R.3" text="Recibir, analizar, tomar decisiones, notificar y proporcionar info en tiempo real"/>
+  <Requirements:Requirement xmi:id="_HApVUB6OEeqdiJPI89HUiw" base_Class="_HAgLYB6OEeqdiJPI89HUiw" id="R.4" text="Coleccionar datos meteorológicos"/>
+  <Requirements:Requirement xmi:id="_H9WOIB6OEeqdiJPI89HUiw" base_Class="_H9MdIB6OEeqdiJPI89HUiw" id="R.5" text="Coleccionar cámaras de tráfico"/>
+  <Requirements:Requirement xmi:id="_YaR6oR6OEeqdiJPI89HUiw" base_Class="_YaR6oB6OEeqdiJPI89HUiw" id="R.6" text="Describir estado del accidente en vivo&#x9;"/>
+  <Requirements:Requirement xmi:id="_bXG4IR6OEeqdiJPI89HUiw" base_Class="_bXG4IB6OEeqdiJPI89HUiw" id="R.7" text="Actuar acorde a a las ordenes recibidas desde el PSAP"/>
+  <Requirements:Requirement xmi:id="_mksOEB6SEeqdiJPI89HUiw" base_Class="_mkn8oB6SEeqdiJPI89HUiw" id="R.5.1" text="Camaras en vivo"/>
+  <Requirements:Requirement xmi:id="_9HYbEB6WEeqdiJPI89HUiw" base_Class="_9HTikB6WEeqdiJPI89HUiw" id="R.2.1" text="Localización del accidente"/>
+  <Requirements:Requirement xmi:id="_MRBTsB6XEeqdiJPI89HUiw" base_Class="_MQ8bMB6XEeqdiJPI89HUiw" id="R.2.2" text="Confirmación de la llegada de datos"/>
+  <Requirements:Requirement xmi:id="_R-41cB6XEeqdiJPI89HUiw" base_Class="_R-1yIB6XEeqdiJPI89HUiw" id="R2.3" text="Evitar falsos positivos o negativos"/>
+  <Requirements:Requirement xmi:id="_a9tKkB6XEeqdiJPI89HUiw" base_Class="_a9oSEB6XEeqdiJPI89HUiw" id="R.2.4" text="Ocupantes, acc de cara a detectar velocidad, vuelcos, etc"/>
+  <Requirements:Requirement xmi:id="_ng8osB6XEeqdiJPI89HUiw" base_Class="_ng3wMB6XEeqdiJPI89HUiw" id="R.3.1" text="Sistema que recibe las llamadas de E-Call"/>
+  <Requirements:Requirement xmi:id="_tulPoB6XEeqdiJPI89HUiw" base_Class="_tugXIB6XEeqdiJPI89HUiw" id="R.3.2" text="Obtener información del servicio meteorológico"/>
+  <Requirements:Requirement xmi:id="_7Hg_oB6XEeqdiJPI89HUiw" base_Class="_7HcHIB6XEeqdiJPI89HUiw" id="R.3.3" text="Obtener información de las cámaras de tráfico"/>
+  <Requirements:Requirement xmi:id="__yLX8B6XEeqdiJPI89HUiw" base_Class="__yIUoB6XEeqdiJPI89HUiw" id="R.3.4" text="Contactar con servicios de emergencias/asistencia necesarios"/>
+  <Requirements:Requirement xmi:id="_rI1f8B6YEeqdiJPI89HUiw" base_Class="_rIzDsB6YEeqdiJPI89HUiw" id="R.3.5" text="Analizar la gravedad del accidente de forma prematura"/>
+  <Requirements:Requirement xmi:id="_xxcysB6YEeqdiJPI89HUiw" base_Class="_xxZvYB6YEeqdiJPI89HUiw" id="R.3.6" text="Mejorar la toma de decisiones"/>
+  <Requirements:Requirement xmi:id="_2Yvt8B6YEeqdiJPI89HUiw" base_Class="_2YsqoB6YEeqdiJPI89HUiw" id="R.3.7" text="Virtualización (Accesibilidad espacial)"/>
+  <Requirements:Requirement xmi:id="_-QftUB6YEeqdiJPI89HUiw" base_Class="_-QZmsB6YEeqdiJPI89HUiw" id="R.3.8" text="Accesibilidad geografica"/>
+  <Requirements:Requirement xmi:id="_EDY5AB6ZEeqdiJPI89HUiw" base_Class="_EDVOoB6ZEeqdiJPI89HUiw" id="R.3.9" text="Almacenamiento de contenido de cara a apoyo a aseguradoras"/>
+  <Requirements:Requirement xmi:id="_M5-fMB6ZEeqdiJPI89HUiw" base_Class="_M57b4B6ZEeqdiJPI89HUiw" id="R.6.1" text="Enviar posición en vivo al operador"/>
+  <Requirements:Requirement xmi:id="_UZngkB6ZEeqdiJPI89HUiw" base_Class="_UZj2MB6ZEeqdiJPI89HUiw" id="R.6.2" text="Detección de errores (caidas, choques, prohibiciones aereas)"/>
+  <Requirements:Requirement xmi:id="_VBicMB6ZEeqdiJPI89HUiw" base_Class="_VBfY4B6ZEeqdiJPI89HUiw" id="R.6.3" text="Autonomia, altura, distancia de R.C., camara de calor, camara normal, GPS, Forma de comunicación (E-Sim), almacenamiento de datos"/>
+  <Requirements:Requirement xmi:id="_VrLPEB6ZEeqdiJPI89HUiw" base_Class="_VrD6UB6ZEeqdiJPI89HUiw" id="R.6.4" text="Envio de imagenes"/>
+  <Requirements:Requirement xmi:id="_XH6S0B6ZEeqdiJPI89HUiw" base_Class="_XH2ocB6ZEeqdiJPI89HUiw" id="R.6.5" text="km^2/drone&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_YmDEwB6ZEeqdiJPI89HUiw" base_Class="_YmABcB6ZEeqdiJPI89HUiw" id="R.6.7" text="Ley de espacio aereo"/>
+  <Requirements:Requirement xmi:id="_ZxF7kB6ZEeqdiJPI89HUiw" base_Class="_ZxDfUB6ZEeqdiJPI89HUiw" id="R.6.8" text="Tiempo maximo de desplazamiento"/>
+  <Requirements:Requirement xmi:id="_BVKiwB6aEeqdiJPI89HUiw" base_Class="_BVGRUB6aEeqdiJPI89HUiw" id="R.5.2" text="Historial fotografico"/>
+  <Requirements:Requirement xmi:id="_CU-Z8B6aEeqdiJPI89HUiw" base_Class="_CU6vkB6aEeqdiJPI89HUiw" id="R.5.3" text="Plataforma a la que consultará el PSAP"/>
+  <Requirements:Requirement xmi:id="_DG4_EB6aEeqdiJPI89HUiw" base_Class="_DG1UsB6aEeqdiJPI89HUiw" id="R.4.1" text="Calculo de pronostico"/>
+  <Requirements:Requirement xmi:id="_DvyLEB6aEeqdiJPI89HUiw" base_Class="_Dvvu0B6aEeqdiJPI89HUiw" id="R.4.2" text="Estado actual: &#xD;&#xA;Temperatura, humedad, precipitacion, niebla, velocidad y dirección del viento y calidad del aire"/>
+  <Requirements:Requirement xmi:id="_EcOaUB6aEeqdiJPI89HUiw" base_Class="_EcKI4B6aEeqdiJPI89HUiw" id="R.4.3" text="Plataforma a la que consultará el PSAP"/>
+  <Requirements:Requirement xmi:id="_hNMEQB6aEeqdiJPI89HUiw" base_Class="_hNHy0B6aEeqdiJPI89HUiw" id="R.7.1" text="Recibir notificaciones"/>
+  <Requirements:Requirement xmi:id="_h5dUYB6aEeqdiJPI89HUiw" base_Class="_h5ZqAB6aEeqdiJPI89HUiw" id="R.7.2" text="Acceder a info en vivo"/>
+  <Requirements:Requirement xmi:id="_inhUQB6aEeqdiJPI89HUiw" base_Class="_indp4B6aEeqdiJPI89HUiw" id="R.7.3" text="Solicitar info personalizada"/>
+  <Requirements:Requirement xmi:id="_eqF-8B6mEeqx3s9OfDXzcQ" base_Class="_epds0B6mEeqx3s9OfDXzcQ" id="R.7" text="Politica de protección de datos"/>
+  <Requirements:Requirement xmi:id="_fpYRsB6mEeqx3s9OfDXzcQ" base_Class="_fpPHwB6mEeqx3s9OfDXzcQ" id="R.8" text="Desarrollo de un sistema modular"/>
+  <Requirements:Requirement xmi:id="_gjiM0B6mEeqx3s9OfDXzcQ" base_Class="_gjXNsB6mEeqx3s9OfDXzcQ" id="R.9" text="Sistema escalable"/>
+  <Requirements:Requirement xmi:id="_jDircB6mEeqx3s9OfDXzcQ" base_Class="_jDavoB6mEeqx3s9OfDXzcQ" id="R.10" text="Sistema adaptable a diferentes entornos"/>
+  <Requirements:Requirement xmi:id="_kmYXMB6mEeqx3s9OfDXzcQ" base_Class="_kmN_IB6mEeqx3s9OfDXzcQ" id="R.11" text="Sistema tolerante a fallos"/>
+  <Requirements:Requirement xmi:id="_mEQDYB6mEeqx3s9OfDXzcQ" base_Class="_mEJVsB6mEeqx3s9OfDXzcQ" id="R.12" text="Numero de drones por emergencia"/>
+  <Requirements:Requirement xmi:id="_oPJNoB6mEeqx3s9OfDXzcQ" base_Class="_oPE8MB6mEeqx3s9OfDXzcQ" id="R.13" text="Km^2/drone"/>
+  <Requirements:Requirement xmi:id="_qIXZEB6mEeqx3s9OfDXzcQ" base_Class="_qIRScB6mEeqx3s9OfDXzcQ" id="R.14" text="Tiempo máximo de operacion"/>
+  <Blocks:Block xmi:id="_zSWmoCAKEeqJh7ajqD8Cxw" base_Class="_zMsDgCAKEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_FV3PYCALEeqJh7ajqD8Cxw" base_Class="_FVteYCALEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_JAAl4CALEeqJh7ajqD8Cxw" base_Class="_I_204CALEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_5-flICAjEeqJh7ajqD8Cxw" base_Class="_5-V0ICAjEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="__GZTECAjEeqJh7ajqD8Cxw" base_Class="__GUakCAjEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_A6JIoCAkEeqJh7ajqD8Cxw" base_Class="_A6EQICAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_E6CFoCAkEeqJh7ajqD8Cxw" base_Class="_E5_pYCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_FbnIsCAkEeqJh7ajqD8Cxw" base_Class="_FbiQMCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_Gl6_sCAkEeqJh7ajqD8Cxw" base_Class="_Gl2HMCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_HULM0CAkEeqJh7ajqD8Cxw" base_Class="_HT1OkCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_Hzu2oCAkEeqJh7ajqD8Cxw" base_Class="_HzsaYCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_cpngYCAkEeqJh7ajqD8Cxw" base_Class="_cplEICAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_kSZ2sCAkEeqJh7ajqD8Cxw" base_Class="_kSU-MCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_k7zZACAkEeqJh7ajqD8Cxw" base_Class="_k7uggCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_lj8XECAkEeqJh7ajqD8Cxw" base_Class="_lj3ekCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_mQod8CAkEeqJh7ajqD8Cxw" base_Class="_mQjlcCAkEeqJh7ajqD8Cxw"/>
+  <Blocks:Block xmi:id="_vk9wECAkEeqJh7ajqD8Cxw" base_Class="_vk7T0CAkEeqJh7ajqD8Cxw"/>
+</xmi:XMI>
