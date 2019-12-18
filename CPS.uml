@@ -7,7 +7,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_TVy0oBw_EeqOwN6zq_czwQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_QogY4BxIEeqTBf0r4a-qVg" name="SoS">
+    <packagedElement xmi:type="uml:Package" xmi:id="_QogY4BxIEeqTBf0r4a-qVg" name="SoS" URI="">
       <ownedComment xmi:type="uml:Comment" xmi:id="_kWEugB6fEeqdiJPI89HUiw">
         <body>https://re-magazine.ireb.org/articles/modeling-requirements-with-sysml</body>
       </ownedComment>
@@ -89,6 +89,9 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_Qyk3gB6QEeqdiJPI89HUiw" name="Drones"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_S8MPYB6QEeqdiJPI89HUiw" name="Emergencias">
         <packagedElement xmi:type="uml:Class" xmi:id="_vk7T0CAkEeqJh7ajqD8Cxw" name="Dispositivo de consulta, notificaciones, etc"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_x0__ICDLEeq8FLT5EsoKuA" name="StateMachine9">
+        <region xmi:type="uml:Region" xmi:id="_ytgUcCDLEeq8FLT5EsoKuA" name="Region1"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TPyTQBw_EeqOwN6zq_czwQ">
