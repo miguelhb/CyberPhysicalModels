@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_TOItcBw_EeqOwN6zq_czwQ" name="CPS">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_TVc2YBw_EeqOwN6zq_czwQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -239,27 +239,32 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_Ue82oCGFEeqdbss-73mAhw" name="Ensure PSAP reception"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_tXdwMDPMEeqchcJs5b_msA" name="ECall System">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_xppIUzPSEeqchcJs5b_msA" name="controler" type="_vSFCwDPMEeqchcJs5b_msA" aggregation="composite" association="_xppIUDPSEeqchcJs5b_msA"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_Z64-kzPTEeqchcJs5b_msA" name="giroscope" type="_734I0DPQEeqchcJs5b_msA" aggregation="composite" association="_Z64-kDPTEeqchcJs5b_msA"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_cqxsQzPTEeqchcJs5b_msA" name="accelerometer" type="_0UUQwDPQEeqchcJs5b_msA" aggregation="composite" association="_cqxsQDPTEeqchcJs5b_msA">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cqxsRDPTEeqchcJs5b_msA"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cqxsRTPTEeqchcJs5b_msA" value="1"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_daggEzPTEeqchcJs5b_msA" name="presence" type="_E0yZcDPREeqchcJs5b_msA" aggregation="composite" association="_daggEDPTEeqchcJs5b_msA">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_daggFDPTEeqchcJs5b_msA"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_daggFTPTEeqchcJs5b_msA" value="1"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_iRxxAzPTEeqchcJs5b_msA" name="positioning" type="_2UxsoDPQEeqchcJs5b_msA" aggregation="composite" association="_iRxxADPTEeqchcJs5b_msA"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_janBUzPTEeqchcJs5b_msA" name="impact" type="_6XrhYDPQEeqchcJs5b_msA" aggregation="composite" association="_janBUDPTEeqchcJs5b_msA">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_janBVDPTEeqchcJs5b_msA"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_janBVTPTEeqchcJs5b_msA" value="1"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_CgH14zPWEeqchcJs5b_msA" name="communication module" type="_sKS9ADPNEeqchcJs5b_msA" aggregation="composite" association="_CgH14DPWEeqchcJs5b_msA">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CgH15DPWEeqchcJs5b_msA"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CgH15TPWEeqchcJs5b_msA" value="1"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_CgH14zPWEeqchcJs5b_msA" name="communication module" type="_sKS9ADPNEeqchcJs5b_msA" aggregation="composite" association="_CgH14DPWEeqchcJs5b_msA"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_gul7IDoiEeqe645fYxN-UA" name="ProxyPort8" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_jOmu4DokEeqe645fYxN-UA" name="ProxyPort9" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_O3BJQDqpEeq2vLROByMuww" name="sensorsgen" type="_-21DIDqoEeq2vLROByMuww" aggregation="composite" association="_O24mYDqpEeq2vLROByMuww">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O3BwUDqpEeq2vLROByMuww"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O3CXYDqpEeq2vLROByMuww" value="1"/>
             </ownedAttribute>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_vSFCwDPMEeqchcJs5b_msA" name="Controler"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_sKS9ADPNEeqchcJs5b_msA" name="Communication Module"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vSFCwDPMEeqchcJs5b_msA" name="Controller">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_8tmuQDojEeqe645fYxN-UA" name="AccidentStatus">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_HmoGQDokEeqe645fYxN-UA" name="SensorInfo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_L5H2MDokEeqe645fYxN-UA" name="Location" type="_21gH4DoiEeqe645fYxN-UA"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_ub66cDqpEeq2vLROByMuww" name="Port7" aggregation="composite"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_TY_hEDokEeqe645fYxN-UA" name="DetectAccident"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Ybo7kDokEeqe645fYxN-UA" name="GetSensorsData"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_aTt3gDokEeqe645fYxN-UA" name="NotifyAccident"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_sKS9ADPNEeqchcJs5b_msA" name="TX/RX System">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_f58LEDoiEeqe645fYxN-UA" name="Port4" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_fMKCkDojEeqe645fYxN-UA" name="E-CallMsg" visibility="public" type="_pi5CUDoiEeqe645fYxN-UA" aggregation="composite"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_KRL58DoiEeqe645fYxN-UA" name="sendAlert"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_xco5ADPQEeqchcJs5b_msA" name="Sensors">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_9hWLkzPREeqchcJs5b_msA" name="accelerometer" type="_0UUQwDPQEeqchcJs5b_msA" aggregation="composite" association="_9hWLkDPREeqchcJs5b_msA"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_Gp6SkzPSEeqchcJs5b_msA" name="positioning" type="_2UxsoDPQEeqchcJs5b_msA" aggregation="composite" association="_Gp6SkDPSEeqchcJs5b_msA"/>
@@ -267,11 +272,63 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_IqgRUzPSEeqchcJs5b_msA" name="giroscope" type="_734I0DPQEeqchcJs5b_msA" aggregation="composite" association="_IqgRUDPSEeqchcJs5b_msA"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_KZbRQzPSEeqchcJs5b_msA" name="presence" type="_E0yZcDPREeqchcJs5b_msA" aggregation="composite" association="_KZbRQDPSEeqchcJs5b_msA"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_0UUQwDPQEeqchcJs5b_msA" name="Accelerometer"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_2UxsoDPQEeqchcJs5b_msA" name="Positioning"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_6XrhYDPQEeqchcJs5b_msA" name="impact"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_734I0DPQEeqchcJs5b_msA" name="giroscope"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_E0yZcDPREeqchcJs5b_msA" name="Presence"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0UUQwDPQEeqchcJs5b_msA" name="Accelerometer">
+            <generalization xmi:type="uml:Generalization" xmi:id="_YawJUDqpEeq2vLROByMuww" general="_-21DIDqoEeq2vLROByMuww"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_dANjcDqnEeq2vLROByMuww" name="XAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_fnOpADqnEeq2vLROByMuww" name="YAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_g0nCIDqnEeq2vLROByMuww" name="ZAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_azFkkDqnEeq2vLROByMuww" name="getAllAxis"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_2UxsoDPQEeqchcJs5b_msA" name="Positioning">
+            <generalization xmi:type="uml:Generalization" xmi:id="_a5Yu8DqpEeq2vLROByMuww" general="_-21DIDqoEeq2vLROByMuww"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_GGx4IDqoEeq2vLROByMuww" name="Latitude" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Jo9lcDqoEeq2vLROByMuww" name="Longitude" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_Mq5FYDqoEeq2vLROByMuww" name="getLocation"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_6XrhYDPQEeqchcJs5b_msA" name="Presence">
+            <generalization xmi:type="uml:Generalization" xmi:id="_b-jAMDqpEeq2vLROByMuww" general="_-21DIDqoEeq2vLROByMuww"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_RjWCEDqoEeq2vLROByMuww" name="Presence" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Integer"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_X9eM4DqoEeq2vLROByMuww" name="getNpassengers"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_734I0DPQEeqchcJs5b_msA" name="Giroscope">
+            <generalization xmi:type="uml:Generalization" xmi:id="_Z4bBMDqpEeq2vLROByMuww" general="_-21DIDqoEeq2vLROByMuww"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_yheFcDqnEeq2vLROByMuww" name="XRotAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_5oGw8DqnEeq2vLROByMuww" name="YRotAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_612WcDqnEeq2vLROByMuww" name="ZRotAccel" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_w7aGkDqnEeq2vLROByMuww" name="getAllAxis"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_E0yZcDPREeqchcJs5b_msA" name="Impact">
+            <generalization xmi:type="uml:Generalization" xmi:id="_dRMT0DqpEeq2vLROByMuww" general="_-21DIDqoEeq2vLROByMuww"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_merzkDqoEeq2vLROByMuww" name="AccidentDetected" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_td3zQDqoEeq2vLROByMuww" name="ImpactForce" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_xtue4DqoEeq2vLROByMuww" name="ImpactThreshold" aggregation="composite">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Real"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ihx5IDqoEeq2vLROByMuww" name="DetectCollission"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_kgHOEDqoEeq2vLROByMuww" name="getImpactValue"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_9hWLkDPREeqchcJs5b_msA" visibility="protected" memberEnd="_9hWLkzPREeqchcJs5b_msA _9hWLljPREeqchcJs5b_msA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9hWLkTPREeqchcJs5b_msA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9hWLkjPREeqchcJs5b_msA" key="nature" value="UML_Nature"/>
@@ -308,41 +365,39 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_xppIVjPSEeqchcJs5b_msA" type="_tXdwMDPMEeqchcJs5b_msA" association="_xppIUDPSEeqchcJs5b_msA"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_Z64-kDPTEeqchcJs5b_msA" memberEnd="_Z64-kzPTEeqchcJs5b_msA _Z64-ljPTEeqchcJs5b_msA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z64-kTPTEeqchcJs5b_msA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z64-kjPTEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_Z64-ljPTEeqchcJs5b_msA" type="_tXdwMDPMEeqchcJs5b_msA" association="_Z64-kDPTEeqchcJs5b_msA"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_cqxsQDPTEeqchcJs5b_msA" memberEnd="_cqxsQzPTEeqchcJs5b_msA _cqxsRjPTEeqchcJs5b_msA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cqxsQTPTEeqchcJs5b_msA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cqxsQjPTEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_cqxsRjPTEeqchcJs5b_msA" name="ecall system" type="_tXdwMDPMEeqchcJs5b_msA" association="_cqxsQDPTEeqchcJs5b_msA"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_daggEDPTEeqchcJs5b_msA" memberEnd="_daggEzPTEeqchcJs5b_msA _daggFjPTEeqchcJs5b_msA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_daggETPTEeqchcJs5b_msA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_daggEjPTEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_daggFjPTEeqchcJs5b_msA" name="ecall system" type="_tXdwMDPMEeqchcJs5b_msA" association="_daggEDPTEeqchcJs5b_msA"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_iRxxADPTEeqchcJs5b_msA" memberEnd="_iRxxAzPTEeqchcJs5b_msA _iRxxBjPTEeqchcJs5b_msA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iRxxATPTEeqchcJs5b_msA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iRxxAjPTEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_iRxxBjPTEeqchcJs5b_msA" type="_tXdwMDPMEeqchcJs5b_msA" association="_iRxxADPTEeqchcJs5b_msA"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_janBUDPTEeqchcJs5b_msA" memberEnd="_janBUzPTEeqchcJs5b_msA _janBVjPTEeqchcJs5b_msA">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_janBUTPTEeqchcJs5b_msA" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_janBUjPTEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_janBVjPTEeqchcJs5b_msA" name="ecall system" type="_tXdwMDPMEeqchcJs5b_msA" association="_janBUDPTEeqchcJs5b_msA"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_CgH14DPWEeqchcJs5b_msA" memberEnd="_CgH14zPWEeqchcJs5b_msA _CgH15jPWEeqchcJs5b_msA">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CgH14TPWEeqchcJs5b_msA" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CgH14jPWEeqchcJs5b_msA" key="nature" value="UML_Nature"/>
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_CgH15jPWEeqchcJs5b_msA" type="_tXdwMDPMEeqchcJs5b_msA" association="_CgH14DPWEeqchcJs5b_msA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_pi5CUDoiEeqe645fYxN-UA" name="E-CallMsg">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_xOFzcDoiEeqe645fYxN-UA" name="Location" visibility="package" type="_21gH4DoiEeqe645fYxN-UA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_HYMeIDojEeqe645fYxN-UA" name="NPassengers" visibility="package">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Integer"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Z5lVsDojEeqe645fYxN-UA" name="SensorInfo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_21gH4DoiEeqe645fYxN-UA" name="Location">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_790FgDoiEeqe645fYxN-UA" name="Latitude" visibility="private">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Number"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_CaYgUDojEeqe645fYxN-UA" name="Longitude" visibility="package">
+              <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_Number"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-21DIDqoEeq2vLROByMuww" name="SensorsGen">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_rIqZ8DqpEeq2vLROByMuww" name="Port3" aggregation="composite"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_AJMp8DqpEeq2vLROByMuww" name="init"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_E3wDwDqpEeq2vLROByMuww" name="getValue"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_O24mYDqpEeq2vLROByMuww" memberEnd="_O3BJQDqpEeq2vLROByMuww _O3CXYTqpEeq2vLROByMuww">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O2830DqpEeq2vLROByMuww" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O2-F8DqpEeq2vLROByMuww" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_O3CXYTqpEeq2vLROByMuww" name="ecall system" type="_tXdwMDPMEeqchcJs5b_msA" association="_O24mYDqpEeq2vLROByMuww"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_xGcpQCGKEeqdbss-73mAhw" name="PSAP">
@@ -579,4 +634,9 @@
   <Blocks:Block xmi:id="_NxEbIDPVEeqchcJs5b_msA" base_Class="_NxAJsDPVEeqchcJs5b_msA"/>
   <Blocks:Block xmi:id="_USzCwDPVEeqchcJs5b_msA" base_Class="_USp40DPVEeqchcJs5b_msA"/>
   <Blocks:Block xmi:id="_pnMYADPWEeqchcJs5b_msA" base_Class="_pnDOEDPWEeqchcJs5b_msA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_guwTMDoiEeqe645fYxN-UA" base_Port="_gul7IDoiEeqe645fYxN-UA"/>
+  <Blocks:ValueType xmi:id="_pi9TwDoiEeqe645fYxN-UA" base_DataType="_pi5CUDoiEeqe645fYxN-UA"/>
+  <Blocks:ValueType xmi:id="_21pR0DoiEeqe645fYxN-UA" base_DataType="_21gH4DoiEeqe645fYxN-UA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_jOpyMDokEeqe645fYxN-UA" base_Port="_jOmu4DokEeqe645fYxN-UA"/>
+  <Blocks:Block xmi:id="_-3KaUDqoEeq2vLROByMuww" base_Class="_-21DIDqoEeq2vLROByMuww"/>
 </xmi:XMI>
